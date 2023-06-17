@@ -1,18 +1,33 @@
 #include <stdio.h>
-/**
- * main - Entry point
- * Description: 'point alphabets lowercase'
- * Return: Always 0
- * */
-int main(void)
-{
-	int n = 97;
 
-	while (n <= 122)
+
+/**
+
+ * main - prints the alphabet in lowercase,
+
+ * followed by a new line
+
+ * Return: Always 0 (Success)
+
+ */
+
+int main(void)
+
+{
+
+	char ch;
+
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+
 	{
-		putchar(n);
-		n++;
+
+		putchar(ch);
+
 	}
+
 	putchar('\n');
+
 	return (0);
+
 }
